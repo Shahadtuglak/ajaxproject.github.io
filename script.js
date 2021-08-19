@@ -1,3 +1,5 @@
+//AJAX REQUEST USING JAVASCRIPT
+
 //Function with the Whole logic inside..
 function fetchRandomDogImage(){
 
