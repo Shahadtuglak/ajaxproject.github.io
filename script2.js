@@ -12,6 +12,9 @@ function fetchRandomDogImage(){
 			$('#dog-image').attr('src',imageURL);		// Set imageURL to the Dog Image
 		}
 
+	}).fail(function(){									 // Message Show when Error Occur in API Call..
+
+		console.log("Request is Failed");
 	})
 
 
