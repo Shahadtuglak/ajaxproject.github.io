@@ -22,6 +22,12 @@ function fetchRandomDogImage(){
  	//Set the image link into the DIV
  	$('#dog-image').attr('src',imageURL);
 
+ };
+ 
+
+ // Message Show when Error Occur in API Call..
+ xhrRequest.onerror() = function(){
+    console.log("Request Failed");
  }
 
 
