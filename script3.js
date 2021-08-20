@@ -10,7 +10,9 @@ function fetchRandomDogImage(){
 
 			$('#dog-image').attr('src',imageURL);  //Set image URL to the dog-image section
 
-		});
+		}).fail(function(){			 // Message Show when Error Occur in API Call..
+			console.log("Request Failed");
+		})
 
 };
 
